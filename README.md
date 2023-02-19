@@ -31,5 +31,4 @@ It will prompt you for a text file. The file should be in root folder. Then it w
 ## Libraries Used (including built-in)
 - os
 - random
-- pytest
 - sys
