@@ -10,21 +10,21 @@ AdRSCiE is a program that converts any text/code file into a secret code text fi
 
 #### 1) For encryption:
 ```
-python project.py -e
+python adrscie.py -e
 ```
 or
 ```
-python project.py --encrypt
+python adrscie.py --encrypt
 ```
 It will prompt you for a file name. The file to encrypt should be in the root folder. Type the file name and hit enter. File name should not contain any whitespaces. The program will output a text file with encrypted text and a ket.txt file with the key.
 
 #### 2) For decryption
 ```
-python project.py -d
+python adrscie.py -d
 ```
 or
 ```
-python project.py --decrypt
+python adrscie.py --decrypt
 ```
 It will prompt you for a text file. The file should be in root folder. Then it will again prompt you for the key file and it should also be in .txt format. There should not be any whitespaces in the file name. The program will output the original file with original name and extension in the `decrypted folder`.
 
