@@ -27,8 +27,3 @@ or
 python adrscie.py --decrypt
 ```
 It will prompt you for a text file. The file should be in root folder. Then it will again prompt you for the key file and it should also be in .txt format. There should not be any whitespaces in the file name. The program will output the original file with original name and extension in the `decrypted folder`.
-
-## Libraries Used (including built-in)
-- os
-- random
-- sys
